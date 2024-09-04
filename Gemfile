@@ -1,7 +1,20 @@
-source 'https://rubygems.org'
-gemspec
+# frozen_string_literal: true
 
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'kramdown'
-gem 'pygments.rb'
+source "https://rubygems.org"
+# 国内使用
+# source "https://gems.ruby-china.com/"
+
+# gem "rails"
+
+gem "jekyll"
+gem "jekyll-coffeescript"
+gem 'wdm', '>= 0.1.0'
+gem 'jekyll-sass-converter'
+
+group :jekyll_plugins do
+    gem 'jekyll-sitemap'
+    gem 'jekyll-feed'
+    gem 'jekyll-seo-tag'    
+    gem 'csv'    
+    gem 'base64'    
+  end

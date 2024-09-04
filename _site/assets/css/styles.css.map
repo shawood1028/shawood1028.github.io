@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss","styles.scss"],"names":[],"mappings":"AAAA,SACI,YCCJ,SACI,YACA","sourcesContent":[".current {\r\n    color: green;\r\n  }","@import\"main\";\n\n.content {\n    width: 45rem;\n    margin: 0 auto;\n  }\n  "],"file":"styles.css"}

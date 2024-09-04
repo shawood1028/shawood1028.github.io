@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ site.locale }}">
-  
-  {% include head.html %}
-
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    {% feed_meta %}
+    {% seo %}
+  </head>
   <body>
-    {% include page-header.html %}
-
-    <section class="main-content">
-      
-      {{ content }}
-
-      {% include page-footer.html %}
-
-    </section>
-
+    {% include navigation.html %}
+    <section class="content">
+        {{ content }}
+      </section>
   </body>
 </html>
