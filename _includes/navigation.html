@@ -1,5 +1,33 @@
-<nav>
+<ul class="my-header">
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      <li ><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
     {% endfor %}
-  </nav>
+</ul>
+
+<style>
+
+ul.my-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.my-header li {
+    float: left;
+}
+
+ul.my-header li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.my-header li a:hover {
+    background-color: #4CAF50;
+}
+</style>

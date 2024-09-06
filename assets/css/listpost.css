@@ -1,0 +1,21 @@
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    display:inline;
+}
+
+#post-title
+{
+    font-size: larger;
+    float:left;
+    font-weight: bolder;
+}
+
+#post-time
+{
+    float:right
+}

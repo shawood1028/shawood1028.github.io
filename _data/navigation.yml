@@ -1,8 +1,6 @@
 - name: 主页
   link: /
-- name: 关于
-  link: /about.html
+- name: 关于我
+  link: /aboutme.html
 - name: 技术文章
-  link: /tech-blog.html
-- name: 个人吐槽
-  link: /pp-blog.html
+  link: /listpost.html

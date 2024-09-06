@@ -16,5 +16,9 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-seo-tag'    
     gem 'csv'    
-    gem 'base64'    
+    gem 'base64'
+    gem 'liquid_reading_time'   
+    gem 'liquid_pluralize' 
+    gem 'kramdown'
+    gem 'kramdown-parser-gfm'
   end
