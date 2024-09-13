@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-06T17:53:02+08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">数组</title><link href="http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84.html" rel="alternate" type="text/html" title="数组" /><published>2024-09-06T00:00:00+08:00</published><updated>2024-09-06T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84</id><content type="html" xml:base="http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84.html"><![CDATA[<h1 id="数组">数组</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-13T14:36:05+08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">java基础</title><link href="http://localhost:4000/2024/09/13/java%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="java基础" /><published>2024-09-13T00:00:00+08:00</published><updated>2024-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/13/java%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2024/09/13/java%E5%9F%BA%E7%A1%80.html"><![CDATA[<h3 id="数组">数组</h3>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="err">#</span> <span class="n">创建数组的两种方法</span>
+<span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="k">new</span> <span class="n">dataType</span><span class="o">[</span><span class="n">arraySize</span><span class="o">];</span>
 
-<p>123</p>]]></content><author><name></name></author><summary type="html"><![CDATA[数组]]></summary></entry><entry><title type="html">数据结构基础</title><link href="http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="数据结构基础" /><published>2024-09-06T00:00:00+08:00</published><updated>2024-09-06T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80.html"><![CDATA[<h2 id="数据结构基础">数据结构基础</h2>
+<span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="o">{</span><span class="n">value0</span><span class="o">,</span> <span class="n">value1</span><span class="o">,</span> <span class="o">...,</span> <span class="n">valuek</span><span class="o">};</span>
+
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[数组 ```java]]></summary></entry><entry><title type="html">leetcode热门200</title><link href="http://localhost:4000/2024/09/10/leetcode%E7%83%AD%E9%97%A8200.html" rel="alternate" type="text/html" title="leetcode热门200" /><published>2024-09-10T00:00:00+08:00</published><updated>2024-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/10/leetcode%E7%83%AD%E9%97%A8200</id><content type="html" xml:base="http://localhost:4000/2024/09/10/leetcode%E7%83%AD%E9%97%A8200.html"><![CDATA[<h2 id="leetcode热门200-题解反思-记录复习用途">leetcode热门200 题解反思 （记录复习用途）</h2>
+
+<h3 id="数组-简单">数组-简单</h3>
+<ol>
+  <li>两数之和</li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[leetcode热门200 题解反思 （记录复习用途）]]></summary></entry><entry><title type="html">数据结构基础</title><link href="http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80.html" rel="alternate" type="text/html" title="数据结构基础" /><published>2024-09-06T00:00:00+08:00</published><updated>2024-09-06T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80</id><content type="html" xml:base="http://localhost:4000/2024/09/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80.html"><![CDATA[<h2 id="数据结构基础">数据结构基础</h2>
 
 <ol>
   <li>数据结构与算法
@@ -15,8 +25,6 @@
       <li>空间复杂度</li>
     </ol>
   </li>
-</ol>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[数据结构基础]]></summary></entry><entry><title type="html">数组</title><link href="http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84.html" rel="alternate" type="text/html" title="数组" /><published>2024-09-06T00:00:00+08:00</published><updated>2024-09-06T00:00:00+08:00</updated><id>http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84</id><content type="html" xml:base="http://localhost:4000/2024/09/06/%E6%95%B0%E7%BB%84.html"><![CDATA[<h1 id="数组">数组</h1>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-</pre></td><td class="code"><pre>  <span class="nt">&lt;p&gt;</span>This is some text in a paragraph.<span class="nt">&lt;/p&gt;</span>
-</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name></name></author><summary type="html"><![CDATA[数据结构基础]]></summary></entry></feed>
+<p>123</p>]]></content><author><name></name></author><summary type="html"><![CDATA[数组]]></summary></entry></feed>

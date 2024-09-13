@@ -17,5 +17,9 @@ li
 
 #post-time
 {
-    float:right
+    float:right;
+}
+
+a {
+    text-decoration:none;
 }

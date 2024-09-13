@@ -78,6 +78,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
+    redcarpet (3.6.0)
     rexml (3.3.7)
     rouge (4.3.0)
     safe_yaml (1.0.5)
@@ -105,6 +106,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   liquid_pluralize
   liquid_reading_time
+  redcarpet
   wdm (>= 0.1.0)
 
 BUNDLED WITH

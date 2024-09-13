@@ -21,4 +21,6 @@ group :jekyll_plugins do
     gem 'liquid_pluralize' 
     gem 'kramdown'
     gem 'kramdown-parser-gfm'
+    # gem 'rouge'
+    gem 'redcarpet'
   end
