@@ -69,12 +69,27 @@ ul.my-header li a:hover {
 </style>
     <!-- <p>This article have 1 words, and it will take 1 minute to read.</p> -->
     <section class="content">
-        <h3 id="数组">数组</h3>
+        <h1 id="数组">数组</h1>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="err">#</span> <span class="n">创建数组的两种方法</span>
-<span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="k">new</span> <span class="n">dataType</span><span class="o">[</span><span class="n">arraySize</span><span class="o">];</span>
+<span class="mi">1</span><span class="o">.</span> <span class="n">创建数组的两种方法</span>
 
-<span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="o">{</span><span class="n">value0</span><span class="o">,</span> <span class="n">value1</span><span class="o">,</span> <span class="o">...,</span> <span class="n">valuek</span><span class="o">};</span>
+    <span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="k">new</span> <span class="n">dataType</span><span class="o">[</span><span class="n">arraySize</span><span class="o">];</span>
+    <span class="n">dataType</span><span class="o">[]</span> <span class="n">arrayRefVar</span> <span class="o">=</span> <span class="o">{</span><span class="n">value0</span><span class="o">,</span> <span class="n">value1</span><span class="o">,</span> <span class="o">...,</span> <span class="n">valuek</span><span class="o">};</span>
+
+<span class="mi">2</span><span class="o">.</span> <span class="n">多维数组</span>
+
+    <span class="n">type</span><span class="o">[][]</span> <span class="n">typeName</span> <span class="o">=</span> <span class="k">new</span> <span class="n">type</span><span class="o">[</span><span class="n">typeLength1</span><span class="o">][</span><span class="n">typeLength2</span><span class="o">];</span>
+
+<span class="mi">3</span><span class="o">.</span> <span class="n">二维数组示例</span>
+
+    <span class="nc">List</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">[]&gt;</span> <span class="n">interval</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+        <span class="kt">int</span><span class="o">[]</span> <span class="n">buf</span> <span class="o">=</span> <span class="o">{</span><span class="n">i</span><span class="o">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">};</span>
+        <span class="n">interval</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">buf</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">inter</span> <span class="o">:</span> <span class="n">interval</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="nc">Arrays</span><span class="o">.</span><span class="na">toString</span><span class="o">(</span><span class="n">inter</span><span class="o">));</span>
+    <span class="o">}</span>
 
 </code></pre></div></div>
 
