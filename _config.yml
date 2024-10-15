@@ -103,5 +103,5 @@ theme: next
 deploy:
   type: 'git'
   repo: https://github.com/shawood1028/shawood1028.github.io
-  branch: gh-pages
+  branch: main
   message: update hexo
