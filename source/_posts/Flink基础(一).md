@@ -1,5 +1,5 @@
 ---
-title: Flink基础系列(一)
+title: Flink基础(一)
 date: 2024-10-16
 tags:
     - 技术
